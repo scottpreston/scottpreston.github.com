@@ -48,6 +48,7 @@ loadExt("https://www.google.com/jsapi", function () {
         for (var i = 0; i < containers.length; i++) {
             var container = containers[i];
             var chart = new google.visualization.Timeline(container);
+            container.style.height = "300px";
             console.log('drawchart2')
             var dataTable = new google.visualization.DataTable();
 

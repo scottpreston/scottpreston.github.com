@@ -1,46 +1,23 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>ScottPreston - GitHub Home</title>
-    <style>
-        body {
-            font-family: arial, helvetica;
-        }
-    </style>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-1128626-24']);
-        _gaq.push(['_trackPageview']);
+---
+layout: default
+---
 
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-</head>
-<body>
-<h1>Scott Preston's - GitHub Home</h1>
+<div class="home">
 
-<p>Go here for my github <a href="https://github.com/scottpreston">project home</a>.</p>
+  <h1 class="page-heading">Posts</h1>
 
-<p>For more information about <a href="http://www.scottpreston.com">Scott Preston</a>, you can visit his <a
-        href="http://www.scottpreston.com">blog</a>.</p>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-<p>This is just a test. Stay tuned for more projects, I'm just getting started.</p>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-<h2>JS Robotics Samples</h2>
-<ul>
-    <li><a href="jsrobotics/simple.html">Simple Client</a></li>
-    <li><a href="jsrobotics/redpage.html">Red Page</a></li>
-    <li><a href="jsrobotics/bluepage.html">Blue Page</a></li>
-    <li><a href="jsrobotics/phone.html">Phone Control</a></li>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</ul>
-
-</body>
-</html>
+</div>

@@ -3,7 +3,7 @@ var list = [];
 setTimeout(function () {
 
     var hook = document.querySelector("#testscript");
-    var tableNode = hook.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode;
+    
     var table = document.querySelector("table");
     var trs = document.querySelectorAll("tr");
     var title = "", fidelity="", collection="";

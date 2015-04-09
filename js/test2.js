@@ -3,7 +3,7 @@ var list = [];
 setTimeout(function () {
 
     var hook = document.querySelector("#testscript");
-    
+
     var table = document.querySelector("table");
     var trs = document.querySelectorAll("tr");
     var title = "", fidelity="", collection="";
@@ -35,8 +35,8 @@ setTimeout(function () {
     var div = document.createElement("div");
     div.className = "testWidget";
     div.innerText = "this is a test";
-    div.style.height = "400px";
-    div.style.width = "800px";
+    div.style.height = "800px";
+    div.style.width = "50%";
     div.style.float = "right";
     div.style.border = "1px solid silver";
     insertAfter(table, div);
@@ -78,8 +78,8 @@ function callLoader() {
             for (var i = 0; i < containers.length; i++) {
                 var container = containers[i];
                 var chart = new google.visualization.Timeline(container);
-                container.style.height = "300px";
-                console.log('drawchart2')
+                //container.style.height = "300px";
+                //console.log('drawchart2')
                 var dataTable = new google.visualization.DataTable();
 
                 dataTable.addColumn({type: 'string', id: 'Collection'});

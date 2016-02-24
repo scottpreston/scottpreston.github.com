@@ -6,7 +6,7 @@ categories: update
 ---
 Today I created a few repositories.
 
-* Hello JQuery - https://github.com/scottpreston/hello-jquery
+* Hello JQuery - (https://github.com/scottpreston/hello-jquery)
 * Hello Angular1 - https://github.com/scottpreston/hello-angular1
 * Hello Angular2 - https://github.com/scottpreston/hello-angular2
 * Hello Ember - https://github.com/scottpreston/hello-ember

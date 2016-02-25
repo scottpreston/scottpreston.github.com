@@ -7,9 +7,9 @@ categories: update
 Today I created a few repositories.
 
 * Hello JQuery - [https://github.com/scottpreston/hello-jquery](https://github.com/scottpreston/hello-jquery)
-* Hello Angular1 - [https://github.com/scottpreston/hello-angular1](https://github.com/scottpreston/hello-angular1)
+* Hello Angular1 - [https://github.com/scottpreston/hello-angular](https://github.com/scottpreston/hello-angular)
 * Hello Angular2 - [https://github.com/scottpreston/hello-angular2](https://github.com/scottpreston/hello-angular2)
-* Hello Ember - [https://github.com/scottpreston/hello-ember](https://github.com/scottpreston/hello-ember)
+* Hello Ember - [https://github.com/scottpreston/hello-ember2](https://github.com/scottpreston/hello-ember2)
 * Hello React - [https://github.com/scottpreston/hello-react](https://github.com/scottpreston/hello-react)
 * Hello Redux - [https://github.com/scottpreston/hello-redux](https://github.com/scottpreston/hello-redux)
 

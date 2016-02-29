@@ -1,21 +1,12 @@
 ---
 layout: post
-title:  "Hello World JavaScript"
-date:   2016-02-24 12:30:00
+title:  "Welcome to To My Github!"
+date:   2015-03-18 19:43:38
 categories: update
 ---
-Today I created a few repositories.
+I started using Jekyll. Stay Tuned!
 
-* Hello JQuery - [https://github.com/scottpreston/hello-jquery](https://github.com/scottpreston/hello-jquery)
-* Hello Angular1 - [https://github.com/scottpreston/hello-angular](https://github.com/scottpreston/hello-angular)
-* Hello Angular2 - [https://github.com/scottpreston/hello-angular2](https://github.com/scottpreston/hello-angular2)
-* Hello Ember - [https://github.com/scottpreston/hello-ember2](https://github.com/scottpreston/hello-ember2)
-* Hello React - [https://github.com/scottpreston/hello-react](https://github.com/scottpreston/hello-react)
-* Hello Redux - [https://github.com/scottpreston/hello-redux](https://github.com/scottpreston/hello-redux)
-
-I created these because I've found "Hello World" documentation in the JS Community to be really, really bad.
-
-I will add to these as I experiment with more frameworks. Enjoy!
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll

@@ -7,7 +7,7 @@ categories: update
 I'd like to add a few more repositories:
 
 * Hello React ES6 - [https://github.com/scottpreston/hello-react-es6](https://github.com/scottpreston/hello-react-es6)
-* Hello Angular2 (TypeScript) - [https://github.com/scottpreston/hello-angular2-ts](https://github.com/scottpreston/hello-angular2-ts
+* Hello Angular2 (TypeScript) - [https://github.com/scottpreston/hello-angular2-ts](https://github.com/scottpreston/hello-angular2-ts)
 * Hello VueJS - [https://github.com/scottpreston/hello-vue](https://github.com/scottpreston/hello-vue)
 
 In addition to these that I've already created earlier this year:

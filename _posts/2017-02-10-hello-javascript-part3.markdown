@@ -6,7 +6,8 @@ categories: update
 ---
 I've updated some repositories and created a few new ones.
 
-Of the ones I've updated, they are essentially obsolete. I've left the old code in the 'old' brange of those repositories but I've added a few newer ones to keep pace with the times.
+Of the ones I've updated, they are essentially obsolete. I've left the old code in the 'old' 
+branch of those repositories but I've added a few newer ones to keep pace with the times.
 
 * Hello React Webpack(2) - [https://github.com/scottpreston/hello-react-webpack](https://github.com/scottpreston/hello-react-webpack)
 * Hello React (Redux) - [https://github.com/scottpreston/hello-redux](https://github.com/scottpreston/hello-redux)

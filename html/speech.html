@@ -1,9 +1,9 @@
 <textarea id="textarea" rows=10 cols=80></textarea>
-<button id="button" onclick="toggleStartStop()"></button>
+<button id="button" onclick="toggleStartStop()">start</button>
 
   <script type="text/javascript">
     var recognizing;
-    var recognition = new SpeechRecognition();
+    var recognition = new webkitSpeechRecognition();
     recognition.continuous = true;
     reset();
     recognition.onend = reset;

@@ -18,5 +18,9 @@ function cap() {
   a.play();
 }
 
+var recognition = new SpeechRecognition();
 
+recognition.onaudioend = function() {
+  alert('Audio capturing ended');
+}
 </script>

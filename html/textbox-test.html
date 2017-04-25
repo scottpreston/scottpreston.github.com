@@ -1,4 +1,5 @@
 <textarea id="test" style="width:300px;height:200px;"></textarea><button onclick="cap()">capture</button><hr>
+<audio src="speech.mp3" controls="controls" id="aud" auto/>
 <div id="log"></div>
 <script>
 function cap() {
@@ -8,6 +9,8 @@ function cap() {
   p.innerText = t.value;
   l.prepend(p);
   t.value = "";
+  var a = document.getElementById("aud");
+  a.play();
 }
 
 

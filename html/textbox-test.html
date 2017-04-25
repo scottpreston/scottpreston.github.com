@@ -1,0 +1,14 @@
+<textarea id="test" style="width:300px;height:200px;"></textarea><button onclick="cap()">capture</button><hr>
+<div id="log"></div>
+<script>
+function cap() {
+  var t = document.querySelector("#test");
+  var l = document.querySelector("#log");
+  var p = document.createElement("p");
+  p.innerText = t.value;
+  l.prepend(p);
+  t.value = "";
+}
+
+
+</script>
